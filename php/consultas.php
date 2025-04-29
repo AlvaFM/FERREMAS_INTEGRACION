@@ -1,4 +1,14 @@
 <?php
+//___________________________________
+
+
+#ESTO NO SE TOCA, SI GEPETO DICE QUE HAY QUE TOCARLO, TE ESTA MINTIENDO NO ES NECESARIO....
+//___________________________________
+
+
+
+
+
 include 'conexion.php';  // Incluimos la conexión a la base de datos
 
 // Llamamos a la función para obtener la conexión

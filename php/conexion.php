@@ -2,8 +2,8 @@
 function conectarBD() {
     $servidor = "localhost";  
     $usuario = "root";     
-    $password = "esio1313";   
-    $base_de_datos = "Ferreteria"; 
+    $password = "esio1313";#AQUI PON TU CONTRASEÑA... ASEGURATE DE CREAR LA MISMA BASE DE DATOS CON EL MISMO NOMBRE   
+    $base_de_datos = "Ferreteria"; #A ESTE NOMBRE ME REFIERO...
 
     $conexion = new mysqli($servidor, $usuario, $password, $base_de_datos);
 

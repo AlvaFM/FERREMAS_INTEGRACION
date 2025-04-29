@@ -1,4 +1,5 @@
 function login(usuario, password) {
+    //___________________Este codigo es reciclabe
     const consulta = `SELECT * FROM usuarios WHERE nombre_usuario = '${usuario}' AND contra = '${password}'`;
 
     const formData = new FormData();
@@ -8,6 +9,7 @@ function login(usuario, password) {
         method: 'POST',
         body: formData
     })
+    //______________________________________________________________
     .then(response => response.json())
     .then(data => {
         if (data.success && data.data.length > 0) {
